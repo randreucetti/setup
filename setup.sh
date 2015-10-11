@@ -13,9 +13,6 @@ source $HOME/.nvm/nvm.sh
 nvm install v0.10.12
 nvm use v0.10.12
 
-#set node packages to somewhere sensible
-npm config set prefix '~/.npm-packages'
-
 # Install jshint to allow checking of JS code within emacs
 # http://jshint.com/
 npm install -g jshint
